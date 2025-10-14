@@ -1,0 +1,36 @@
+name: card_ar_app
+description: AR Card Scanner App with video overlay
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  arcore_flutter_plugin: ^0.1.0
+  arkit_plugin: ^1.0.7
+  video_player: ^2.8.1
+  permission_handler: ^11.0.1
+  camera: ^0.10.5+5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.5
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/images/card_1.jpg
+    - assets/images/card_2.jpg
+    - assets/images/card_3.jpg
+    - assets/videos/video_1.mp4
+    - assets/videos/video_2.mp4
+    - assets/videos/video_3.mp4
